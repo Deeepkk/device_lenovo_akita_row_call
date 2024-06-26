@@ -1,0 +1,3 @@
+persist.function_for_sar=0
+persist.function_for_sar_log_trigger=0
+persist.switch.reduce.sar_power=1

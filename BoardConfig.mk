@@ -90,6 +90,14 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 
+# UB Touch
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+BOARD_ROOT_EXTRA_FOLDERS := \
+ /firmware \
+ /dsp \
+ /persist \
+ /cust 
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2022-06-05
 

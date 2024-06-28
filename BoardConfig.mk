@@ -46,7 +46,7 @@ TARGET_KERNEL_CONFIG := akita_row_call_defconfig
 TARGET_KERNEL_SOURCE := kernel/lenovo/akita_row_call
 
 # Kernel - prebuilt
-TARGET_FORCE_PREBUILT_KERNEL := true
+TARGET_FORCE_PREBUILT_KERNEL := false
 ifeq ($(TARGET_FORCE_PREBUILT_KERNEL),true)
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilts/kernel
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilts/dtb.img
